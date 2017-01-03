@@ -1,0 +1,34 @@
+.label {
+	display: block;
+	margin: 10px 30px 0;
+	font-size: 0.8rem;
+	font-weight: bold;
+}
+
+.firstLabel {
+	composes: label;
+	margin-top: 20px;
+}
+
+.lastLabel {
+	composes: label;
+	margin-bottom: 20px;
+}
+
+.plain {
+	display: block;
+	padding: 8px 0 7px;
+	font-size: 1rem;
+	font-weight: normal;
+}
+
+.input {
+	display: block;
+	margin: 2px 0 0;
+	border: 1px solid #aaa;
+	border-radius: 3px;
+	padding: 5px 7px 6px;
+	width: 100%;
+	font-size: 1rem;
+	font-weight: normal;
+}

@@ -1,0 +1,20 @@
+.list {
+	margin: 0 30px;
+}
+
+.listItem {
+	margin-top: -1px;
+	border: 1px solid #adadad;
+	padding: 20px 10px 18px;
+	list-style: none;
+}
+
+.listItem:first-child {
+	margin-top: 20px;
+	border-radius: 3px 3px 0 0;
+}
+
+.listItem:last-child {
+	margin-bottom: 20px;
+	border-radius: 0 0 3px 3px;
+}
